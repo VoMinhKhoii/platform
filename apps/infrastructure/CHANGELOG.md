@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.1](https://github.com/tutur3u/platform/compare/infra-v0.3.0...infra-v0.3.1) (2026-07-04)
+
+
+### Bug Fixes
+
+* **ci:** allow duplicated aws smithy clients ([c29829e](https://github.com/tutur3u/platform/commit/c29829ef65ede187bc55350c52c42354da30d161))
+* **ci:** normalize aws presign types ([860e209](https://github.com/tutur3u/platform/commit/860e209d5f986eca5bffc1378e82201284206a86))
+* **infrastructure:** replace workspace picker with logo link ([0e998eb](https://github.com/tutur3u/platform/commit/0e998eb7650cecad1d5042b59fb46af18f578160))
+
 ## [0.3.0](https://github.com/tutur3u/platform/compare/infra-v0.2.0...infra-v0.3.0) (2026-07-03)
 
 

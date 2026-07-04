@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.7.0](https://github.com/tutur3u/platform/compare/tanstack-web-v0.6.0...tanstack-web-v0.7.0) (2026-07-04)
+
+
+### Features
+
+* **hive:** migrate hive module from web to apps/hive (incl. APIs) ([689085a](https://github.com/tutur3u/platform/commit/689085a942da0f589701c074e9278550cce5f4eb))
+* **mind:** migrate mind module from web to apps/mind (incl. APIs) ([bdc5f71](https://github.com/tutur3u/platform/commit/bdc5f71a92c2f67686bb71a4889b9f513d34db79))
+
+
+### Bug Fixes
+
+* **tanstack:** redirect random tool to satellite app ([861f0ab](https://github.com/tutur3u/platform/commit/861f0ab12dc7329442db5c2e3d3bdaccb8c5f1ec))
+
 ## [0.6.0](https://github.com/tutur3u/platform/compare/tanstack-web-v0.5.0...tanstack-web-v0.6.0) (2026-07-03)
 
 

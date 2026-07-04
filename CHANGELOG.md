@@ -1,5 +1,54 @@
 # Changelog
 
+## [0.18.0](https://github.com/tutur3u/platform/compare/platform-v0.17.0...platform-v0.18.0) (2026-07-04)
+
+
+### Features
+
+* **hive:** migrate hive module from web to apps/hive (incl. APIs) ([689085a](https://github.com/tutur3u/platform/commit/689085a942da0f589701c074e9278550cce5f4eb))
+* **inventory:** collapse advanced settings in the integration panels ([8e0967c](https://github.com/tutur3u/platform/commit/8e0967cd319e903eb12f0058f05dcdeb59b9b398))
+* **inventory:** make the storefront section builder an accordion ([c9d8012](https://github.com/tutur3u/platform/commit/c9d80129925ced1d336acde16e3fde4a643f220f))
+* **inventory:** move inventory API routes into apps/inventory ([071a72c](https://github.com/tutur3u/platform/commit/071a72cebcdd3d6122363c57b006ee8838efe9c9))
+* **inventory:** redirect web inventory dashboard to apps/inventory ([243a7b0](https://github.com/tutur3u/platform/commit/243a7b0bbd7274885e950e78a8cacab117ba6b54))
+* **inventory:** tab the bundle create form ([58721a5](https://github.com/tutur3u/platform/commit/58721a54f3501ae518d7557203252b27002628ac))
+* **inventory:** tab the costing profile dialog ([7180a20](https://github.com/tutur3u/platform/commit/7180a20876c2b5b42af2876fb3e1689b28a4a01d))
+* **inventory:** tab the storefront create form ([1f11960](https://github.com/tutur3u/platform/commit/1f11960ddad92d0a91b7c6d4e58744e43febb5d0))
+* **inventory:** tab the storefront listing editor ([856ff61](https://github.com/tutur3u/platform/commit/856ff610161b9a80af9606e1307850c8a18e1826))
+* **inventory:** use shared Tabs for the commerce panel ([bf2d48b](https://github.com/tutur3u/platform/commit/bf2d48bc99d86257853ce61b5726112ca93a4dbd))
+* **inventory:** use skeleton loading state in OperatorDataList ([86b1d4e](https://github.com/tutur3u/platform/commit/86b1d4ebbbcfcdee7d26f5ac3927bd40e25264ab))
+* **mind:** migrate mind module from web to apps/mind (incl. APIs) ([bdc5f71](https://github.com/tutur3u/platform/commit/bdc5f71a92c2f67686bb71a4889b9f513d34db79))
+* **tools:** add apps/tools public tools app, remove apps/qr ([204aae8](https://github.com/tutur3u/platform/commit/204aae89a04b4163f2859561f8e832526642e271))
+
+
+### Bug Fixes
+
+* **auth:** allow managed oauth subdomain returns ([b4b5229](https://github.com/tutur3u/platform/commit/b4b52294827efc181a1207b1693d49201409fd5f))
+* **auth:** preserve managed oauth callbacks ([d72823b](https://github.com/tutur3u/platform/commit/d72823bb637e539cc6b88b217c19906c55dd6527))
+* **auth:** trust managed Tuturuuu return hosts ([ffefed4](https://github.com/tutur3u/platform/commit/ffefed473a4c7ec58d74b8b0dee6d40a49383857))
+* **calendar:** use GitHub-owned Vercel deploys ([946a8a5](https://github.com/tutur3u/platform/commit/946a8a589b688848d4a3da0ebf19f09e5dd41168))
+* **ci:** allow duplicated aws smithy clients ([c29829e](https://github.com/tutur3u/platform/commit/c29829ef65ede187bc55350c52c42354da30d161))
+* **ci:** correct tools vercel project secret ([7479691](https://github.com/tutur3u/platform/commit/7479691b10ba0b1505a00da549eaf7f3753caee4))
+* **ci:** normalize aws presign types ([860e209](https://github.com/tutur3u/platform/commit/860e209d5f986eca5bffc1378e82201284206a86))
+* **ci:** normalize web aws presign types ([de0520e](https://github.com/tutur3u/platform/commit/de0520e2a8ba331725ad8233b9d81c6c8f239ade))
+* **infrastructure:** replace workspace picker with logo link ([0e998eb](https://github.com/tutur3u/platform/commit/0e998eb7650cecad1d5042b59fb46af18f578160))
+* **inventory:** align operator UI with design tokens + a11y ([1e035e1](https://github.com/tutur3u/platform/commit/1e035e1cf5a9801ae1235e9833cc51aebfa95601))
+* **inventory:** contain operator tables and translations ([5fa064e](https://github.com/tutur3u/platform/commit/5fa064e4c203f7202fc6db4ef2463001e32857a4))
+* **inventory:** give the OperatorDataList loading region a status role ([acca059](https://github.com/tutur3u/platform/commit/acca059c81499ca8a3b351704555d7c04d8ca503))
+* **tanstack:** redirect random tool to satellite app ([861f0ab](https://github.com/tutur3u/platform/commit/861f0ab12dc7329442db5c2e3d3bdaccb8c5f1ec))
+* **tasks:** authenticate label association routes ([a3350a6](https://github.com/tutur3u/platform/commit/a3350a6deab332ac1754533e5fbaec5f6ecd62f4))
+* **tasks:** harden satellite task route hydration ([9d51a38](https://github.com/tutur3u/platform/commit/9d51a38ad948ebb398bec794f082f2bbf8d466cc))
+* **tasks:** log personal task route failures ([d2b7f64](https://github.com/tutur3u/platform/commit/d2b7f6475e3d81ce785f7b5695d85cb3b63f5046))
+* **tasks:** restore personal board entrypoint ([e707bf5](https://github.com/tutur3u/platform/commit/e707bf538925545a06dea83ca8f4f48f5c057461))
+* **tasks:** restore satellite resource access ([ec5e0a8](https://github.com/tutur3u/platform/commit/ec5e0a8d75398047e0151ae2ac3cd9a25a4fd675))
+* **tasks:** serve config APIs from tasks app ([6d12722](https://github.com/tutur3u/platform/commit/6d12722fa54b146d69de0788624327eaa5f3f1a2))
+* **tasks:** tolerate personal count rpc auth gaps ([a31044a](https://github.com/tutur3u/platform/commit/a31044aea13e623d06c50eb086022244a2177e98))
+* **tasks:** use connection for boards route ([15bc262](https://github.com/tutur3u/platform/commit/15bc2623dfe1d236d729bf65b5417fae050b455b))
+* **tasks:** use connection without segment config ([e3e89e0](https://github.com/tutur3u/platform/commit/e3e89e059219f589f11ccb29313f3bda5b0624b2))
+* **web:** align e2e with satellite route ownership ([a7833b2](https://github.com/tutur3u/platform/commit/a7833b2422292b5ceca7bc499cdadbc4a65c445e))
+* **web:** allow production tools redirect in e2e ([ab7f69d](https://github.com/tutur3u/platform/commit/ab7f69df63754eec087e5c949c7562b7243a4e07))
+* **web:** fail open without redis ([74bfcc7](https://github.com/tutur3u/platform/commit/74bfcc7ea5f188a56f49802c6a48bde0b109e02d))
+* **web:** unify login loading card ([fcac4a8](https://github.com/tutur3u/platform/commit/fcac4a875a001bc79603a4ecafb732ca49b41020))
+
 ## [0.17.0](https://github.com/tutur3u/platform/compare/platform-v0.16.0...platform-v0.17.0) (2026-07-03)
 
 

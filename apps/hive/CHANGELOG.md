@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.5.0](https://github.com/tutur3u/platform/compare/hive-v0.4.1...hive-v0.5.0) (2026-07-04)
+
+
+### Features
+
+* **hive:** migrate hive module from web to apps/hive (incl. APIs) ([689085a](https://github.com/tutur3u/platform/commit/689085a942da0f589701c074e9278550cce5f4eb))
+
 ## [0.4.1](https://github.com/tutur3u/platform/compare/hive-v0.4.0...hive-v0.4.1) (2026-07-02)
 
 

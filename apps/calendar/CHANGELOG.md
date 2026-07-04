@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.1](https://github.com/tutur3u/platform/compare/calendar-v0.8.0...calendar-v0.8.1) (2026-07-04)
+
+
+### Bug Fixes
+
+* **calendar:** use GitHub-owned Vercel deploys ([946a8a5](https://github.com/tutur3u/platform/commit/946a8a589b688848d4a3da0ebf19f09e5dd41168))
+
 ## [0.8.0](https://github.com/tutur3u/platform/compare/calendar-v0.7.0...calendar-v0.8.0) (2026-07-03)
 
 

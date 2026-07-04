@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.3.0](https://github.com/tutur3u/platform/compare/mind-v0.2.1...mind-v0.3.0) (2026-07-04)
+
+
+### Features
+
+* **mind:** migrate mind module from web to apps/mind (incl. APIs) ([bdc5f71](https://github.com/tutur3u/platform/commit/bdc5f71a92c2f67686bb71a4889b9f513d34db79))
+* **tools:** add apps/tools public tools app, remove apps/qr ([204aae8](https://github.com/tutur3u/platform/commit/204aae89a04b4163f2859561f8e832526642e271))
+
 ## [0.2.1](https://github.com/tutur3u/platform/compare/mind-v0.2.0...mind-v0.2.1) (2026-07-03)
 
 

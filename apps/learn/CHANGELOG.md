@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.2](https://github.com/tutur3u/platform/compare/learn-v0.4.1...learn-v0.4.2) (2026-07-04)
+
+
+### Bug Fixes
+
+* **inventory:** contain operator tables and translations ([5fa064e](https://github.com/tutur3u/platform/commit/5fa064e4c203f7202fc6db4ef2463001e32857a4))
+
 ## [0.4.1](https://github.com/tutur3u/platform/compare/learn-v0.4.0...learn-v0.4.1) (2026-07-03)
 
 

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.12.1](https://github.com/tutur3u/platform/compare/ui-v0.12.0...ui-v0.12.1) (2026-07-04)
+
+
+### Bug Fixes
+
+* **tasks:** harden satellite task route hydration ([9d51a38](https://github.com/tutur3u/platform/commit/9d51a38ad948ebb398bec794f082f2bbf8d466cc))
+* **tasks:** restore satellite resource access ([ec5e0a8](https://github.com/tutur3u/platform/commit/ec5e0a8d75398047e0151ae2ac3cd9a25a4fd675))
+
 ## [0.12.0](https://github.com/tutur3u/platform/compare/ui-v0.11.1...ui-v0.12.0) (2026-07-03)
 
 
